@@ -1,0 +1,112 @@
+h1{
+    color: aquamarine;
+}
+/* ctrl+/ ro bezanim comment va uncomment mishe dar css */
+/* yeki az selector hay paye hamin element has k esm element ya tag ro behesh midim va style midim mese hamin tag h1 albate dar in halat age chandta az on tag dashte bashim hamashon style migiran*/
+#mytext{
+    font-size: small;
+    color: red;
+}
+/* yeki dg az selector hay paye id has k ba id dadn be element ya tag mored nazar miaim to css va ba estefade az # sharp sign va id va acolad behesh style midim injuri age chandta az ye tag bashe ham faghat hamon id k entekhab kardim on style ro migire va id unique has va nmishe az yek id baray chand element estefade kard  */
+
+.caption{
+    color: black;
+}
+/* class dadn be element ha yeki az porestefade tarin ravesh has k be chand element mishe class ham nam dad va b hamashon chantai yek model style dad va ba noghte ghablesh va esm class style baz mishe to css vasash */
+h1,h2{
+    color: blueviolet;
+}
+/* in selector group has k vaghti chand tag mikhaym entekhab kunim k yek style yeksan dashte bashan ba esm tag va, coma mizanim vasash */
+*{
+    /* in all element has k miad ba in ravesh be hame element ha style mide toye box model ha bishtar estefade mishe */
+}
+p.caption{
+    color: blue;
+}
+/* vaghti masalna dar tagemon ye tag dg ham darim ba hamon class name vali mikhym faght on ykei ha shekl begiran injuri aval esme tag ro mizarim bad ba noghte va esm class daghigh moshakhas mikunim kudom manzoremone masalan age chandta tag p dashte bashim va tag span hamm dakhelesh bashe ba hamon class name onvaght b in shekl mizarim k on tag span dg style nmigire ba ina */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+.mysection .content-1{
+    color: cadetblue;
+}
+.mysection .content-2{
+    background-color:royalblue
+    /* background-color:rgba(red, green, blue, alpha) */
+    /* background-color:hsla(hue, saturation, lightness, alpha); */
+   /* color:#FFB300 */
+}
+/* zamani ke bekhaym az tarigh parent child style dehi kunim va az tag hay to dar to estefade kunim miaim aval esm class parent ro mizanimm yani noghte esm class parent fasele noghte esme class tag dakheli k mikhim va bad style dehi mikunim  */
+
+.mysection div{
+    font-style: italic;
+}
+/* injuri shekl bala ham mishe ba class name parent biaim be tamam element hay div k mikhim va dakhel my section has style bedim  */
+.mysection > div{
+    border: 3px solid red;
+   color: chartreuse;
+}
+/* az in tarigh miaim faghat farzanday mostaghim on class k mikhaim ro style midim */
+
+h1 + p {
+    font-weight: bold;
+}
+/* injuri bashe yani az h1 b bad tag badish k p bashe faghat hamon avalin p ro miad  */
+h1 ~ p {
+    color: aquamarine;
+}
+/* ba estfade az tilda miad tamam tag hai k bad az tag h1 has ro style dehi mikune */
+.axposhtzamine{
+    width: 800px;
+    height: 800px;
+    background-size:50%;
+    background-image:url("../styles/imagescss/jirini.png");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position-x:center;
+    background-position-y:center;
+    /* background: url("../styles/imagescss/jirini.png") no-repeat fixed center;
+    injuri mishe khulase kard code hayi k marbut b yk ghesmat has ro esmesh ro mizarim va bad maghadiri k mikhaim ro behesh dar yek khat ba fasel az ham behesh midim */
+
+    /* injuri attachment ro fix kunim ax ro bala pain kuni nesfe neshon mideo kamel mishe vase zibai momkenne estefade beshe vaghti k safamon ziade va scroll mikhure/yechiz dg ham has halat scroll k vaghti safaro pain bala kunim ax sabete va taghir nmikune */
+    /* size ro 100 bezarim yani kule on arzo toli k gerftim ro ba in ax por kune/ url mizanim donoghte chon bayad bargarde biron az y folder dg biar vase ax/no repeat mizarim k ax ro chanabr tekrar nakune*/
+}
+.hashieha h2{
+    border-width: 2px;
+    border-style:dotted;
+    border-color: deeppink;
+    /* border-left-color: black; vaghti sidesh ro entekhab kunim mitonim gusheha ya harjay border ro taghir rang bedim */
+
+    /* border:2px dotted deeppink; in mishe short hand hame cod hay bala */
+}
+.borders p{ 
+    color:white;
+    background-color: crimson;
+    border-left: 8px solid black;
+}
+.gushe{
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+    border-radius: 20%;
+}
+div{
+    height: 60px;
+}
+.box1{
+    background-color: indianred;
+    border: 4px solid blue;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding:20px;
+
+}
+ .box2{
+  background-color: darkorchid;
+  border: 4px solid yellow;
+  border-radius: 15px;
+  margin: 15px 5px 15px 5px;
+  /* vGHTI hasho short hand kunim to yek khat midim mese sat gard has bala rast pain chap */
+  padding: 20px 30px 20px 30px; 
+}
